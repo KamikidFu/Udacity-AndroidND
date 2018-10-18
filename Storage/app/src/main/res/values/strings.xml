@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FullStorage</string>
+
+    <string name="placeholder">PLACEHOLDER</string>
+
+    <string name="sale">Sale</string>
+
+    <string name="empty">Oh...There is no storage right now!...</string>
+    <string name="item_name">Item Name:</string>
+    <string name="item_price">Item Price:</string>
+    <string name="money">$</string>
+    <string name="item_amount">Item amount:</string>
+    <string name="minus">-</string>
+    <string name="add">+</string>
+    <string name="supplier_name">Supplier Name:</string>
+    <string name="supplier_email">Supplier Email:</string>
+    <string name="supplier_phone">Supplier Phone:</string>
+    <string name="email_order">Order by email</string>
+    <string name="order_by_phone">Order by Phone</string>
+    <string name="new_storage">Update/Add new storage</string>
+    <string name="delete_the_storage">Delete the storage</string>
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+    <string name="delete_all_storage">Delete All Storage</string>
+
+    <string name="editor_activity_title_new_item">Add New Storage</string>
+    <string name="editor_activity_title_edit_item">Edit Storage Item</string>
+    <string name="money_marker">$</string>
+    <string name="amount">IN STOCK: </string>
+    <string name="delete_item">Delete it</string>
+    <string name="cancel">Cancel</string>
+    <string name="out_of_stock">-OUT OF STOCK-</string>
+    <string name="init_amount">1</string>
+</resources>

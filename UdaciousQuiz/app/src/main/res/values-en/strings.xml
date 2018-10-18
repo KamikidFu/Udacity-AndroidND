@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Udacious Quiz</string>
+    <string name="app_statement">\tWelcome to Udacious Quiz App! This app currently only covered some of quizs from Basic Android courses. You could use it as an offline review app at any time! Thank you for your use!</string>
+    <string name="name_ask">Your Name:</string>
+    <string name="quiz_enter">Enter Quiz</string>
+    <string name="empty_name">Please type your name to enter quiz! Thanks!</string>
+    <string name="welcome_quiz">Welcome, <xliff:g id="name">%s</xliff:g>!</string>
+    <string name="udacity_icon">UdacityIcon</string>
+    <string name="placehodler">PLACEHODLER</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_1">Quiz one: Identify different views</string>
+    <string name="quiz_2">Quiz two: XML Syntax</string>
+    <string name="quiz_2_1">1. What is the name of this XML element?</string>
+    <string name="quiz_2_2">2. List all the property names(NOT the values) in order, use comma to split.</string>
+    <string name="quiz_2_3">3. On what line number is the tag closed?</string>
+    <string name="quiz_3">Quiz three: Choose the wrong item(s) which declear object in a wrong way</string>
+    <string name="quiz_4">Quiz four: Code analysis - What is the result of the code above?</string>
+    <string name="quiz_4_hint">Integer result</string>
+    <string name="success">Well done!</string>
+    <string name="failed">Emmm...Not right</string>
+    <string name="see_marks">See Your Marks</string>
+    <string name="cur_marks">Current marks:<xliff:g id="marks">%d</xliff:g>!</string>
+</resources>

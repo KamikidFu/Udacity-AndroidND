@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/singleStorageItemRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:id="@+id/singleStorageItemLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/storageItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"
+                style="@style/ListViewItemTitle"/>
+
+            <TextView
+                android:id="@+id/storageItemAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"
+                style="@style/ListViewItemSubtitle"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/storageItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/storageItemSaleButton"
+            android:layout_alignBottom="@+id/storageItemSaleButton"
+            android:layout_centerHorizontal="true"
+            android:text="@string/placeholder"
+            style="@style/ListViewItemPrice"/>
+
+        <Button
+            android:id="@+id/storageItemSaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/sale"
+            android:maxLines="1"
+            android:maxEms="4"
+            android:maxWidth="64dp"
+            android:focusable="false"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

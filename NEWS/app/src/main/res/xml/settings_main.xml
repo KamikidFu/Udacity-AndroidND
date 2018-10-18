@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_topics_tech_value"
+        android:entries="@array/settings_topics_by_label"
+        android:entryValues="@array/setting_topics_by_value"
+        android:key="@string/settings_topics_key"
+        android:title="@string/settings_topics_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_default_date"
+        android:inputType="date"
+        android:key="@string/settings_from_date_key"
+        android:title="@string/settings_from_date_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_default_date"
+        android:inputType="date"
+        android:key="@string/settings_to_date_key"
+        android:title="@string/settings_to_date_label" />
+
+</PreferenceScreen>

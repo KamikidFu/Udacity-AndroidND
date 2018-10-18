@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StandardViewMargin">
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <!-- Text view default theme. -->
+    <style name="TextViewDefault">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Text view score theme. -->
+    <style name="TextViewScore">
+        <item name="android:textColor">#DC143C	</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
